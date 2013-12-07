@@ -1,13 +1,13 @@
-*easydir.txt*   Saving files and directories at the same time!
+*easydir.txt*   An easy way to create files and directories at the same time!
 
 Author:         Doug Yun | <doug.yun@dockyard.com> | http://dockyard.com
 License:        MIT License 2013
 
 INTRODUCTION                                       *easydir*
 
-Using easydir is quite easy. Functionality remains the same for editing and
+Using *easydir* is quite easy. Functionality remains the same for editing and
 saving files, but now you can prepend nonexistent directories to the desired
-file name to create them.
+file name to create them both.
 
 EXAMPLES
 
