@@ -1,6 +1,6 @@
 " Plugin:      easydir.vim
 " Description: A simple to create, edit and save files and directories.
-" Version:     0.1
+" Version:     1.0
 " Last Change: 2013 Dec 6
 " Maintainer:  Doug Yun | <doug.yun@dockyard.com>
 "              DockYard, LLC 2013 | http://dockyard.com
