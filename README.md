@@ -56,7 +56,7 @@ Bundle 'dockyard/vim-easydir'
 
 ```
 $ cd ~/.vim/bundle
-$ git clone git@github.com:dockyard/vim-easydir.git
+$ git clone https://github.com/dockyard/vim-easydir.git
 ```
 
 * [Vim Script](http://www.vim.org/scripts/script.php?script_id=4793)
