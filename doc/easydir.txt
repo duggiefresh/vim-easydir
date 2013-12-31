@@ -5,7 +5,7 @@ License:             MIT License 2013
 
 INTRODUCTION                                                        *easydir*
 
-Using *easydir* is quite easy. Functionality remains the same for editing and
+Using easydir is quite easy. Functionality remains the same for editing and
 saving files, but now you can prepend nonexistent directories to the desired
 file name to create them both.
 
