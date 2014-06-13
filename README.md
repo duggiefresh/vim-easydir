@@ -47,9 +47,9 @@ I highly recommend checking out Vundle or Pathogen for managing plugins.
 ```
 # ~/.vimrc
 
-Bundle 'dockyard/vim-easydir'
+Plugin 'dockyard/vim-easydir'
 
-# Then run ':BundleUpdate'
+# Then run ':PluginInstall'
 ```
 
 * [Pathogen](https://github.com/tpope/vim-pathogen)
