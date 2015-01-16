@@ -47,7 +47,7 @@ I highly recommend checking out Vundle or Pathogen for managing plugins.
 ```
 # ~/.vimrc
 
-Plugin 'dockyard/vim-easydir'
+Plugin 'duggiefresh/vim-easydir'
 
 # Then run ':PluginInstall'
 ```
@@ -56,7 +56,7 @@ Plugin 'dockyard/vim-easydir'
 
 ```
 $ cd ~/.vim/bundle
-$ git clone https://github.com/dockyard/vim-easydir.git
+$ git clone https://github.com/duggiefresh/vim-easydir.git
 ```
 
 * [Vim Script](http://www.vim.org/scripts/script.php?script_id=4793)
