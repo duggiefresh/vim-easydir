@@ -17,10 +17,11 @@ Here are some examples:
 ```
 :new new_directory/new_file.txt
 
-# new_directory/ is now created
 # Write some stuff to new_file.txt
 
 :w
+
+# new_directory/ is now created
 ```
 
 * Create child directories inside...
