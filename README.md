@@ -60,4 +60,4 @@ $ cd ~/.vim/bundle
 $ git clone https://github.com/duggiefresh/vim-easydir.git
 ```
 
-* [Vim Script](http://www.vim.org/scripts/script.php?script_id=4793)
+* [Vim Script](https://vim.sourceforge.io/scripts/script.php?script_id=4793)
