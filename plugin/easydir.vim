@@ -17,8 +17,8 @@ augroup easydir
 augroup END
 
 function <SID>create_and_save_directory()
-  let s:directory = expand('<afile>:p:h')
-  if s:directory !~# '^\w\+:' && !isdirectory(s:directory)
-    call mkdir(s:directory, 'p')
+  let l:directory = expand('<afile>:p:h')
+  if l:directory !~# '^\w\+:' && !isdirectory(l:directory)
+    call mkdir(l:directory, 'p')
   endif
 endfunction
