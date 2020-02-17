@@ -1,7 +1,7 @@
 " Plugin:      easydir.vim
-" Description: A simple to create, edit and save files and directories.
-" Version:     1.1
-" Last Change: 2017 Aug 23
+" Description: A simple plugin to create, edit and save files and directories.
+" Version:     1.2
+" Last Change: 2019 Dec 22
 " Maintainer:  Doug Yun | <doug.yun@dockyard.com>
 "              DockYard, LLC 2013 | http://dockyard.com
 " License:     MIT License (MIT) | Copyright 2013
@@ -17,9 +17,8 @@ augroup easydir
 augroup END
 
 function <SID>create_and_save_directory()
-  let s:directory = expand('<afile>:p:h')
-  if s:directory !~# '^\(scp\|ftp\|dav\|fetch\|ftp\|http\|rcp\|rsync\|sftp\|file\):'
-  \ && !isdirectory(s:directory)
-    call mkdir(s:directory, 'p')
+  let l:directory = expand('<afile>:p:h')
+  if l:directory !~# '^\w\+:' && !isdirectory(l:directory)
+    call mkdir(l:directory, 'p')
   endif
 endfunction
